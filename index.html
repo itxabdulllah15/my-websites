@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aged | ايجد — Specialty Coffee in Al Khobar</title>
+  <meta name="description" content="Aged | ايجد is a specialty coffee shop in Madinat Al Umal, Al Khobar, serving specialty coffee, matcha, desserts and handcrafted drinks in a modern atmosphere.">
+  <meta property="og:title" content="Aged | ايجد — Specialty Coffee in Al Khobar">
+  <meta property="og:description" content="Specialty coffee, matcha and desserts in Madinat Al Umal, Al Khobar.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1a1109">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@300;400;500;600&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Aged | ايجد",
+    "description": "Specialty coffee shop serving specialty coffee, matcha, desserts and handcrafted drinks in Al Khobar.",
+    "priceRange": "SAR 2–24",
+    "servesCuisine": "Coffee",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "22nd St, Madinat Al Umal",
+      "addressLocality": "Al Khobar",
+      "postalCode": "34441",
+      "addressCountry": "SA"
+    },
+    "hasMap": "https://maps.app.goo.gl/Bp3s7iJshg5Pm5Kr5",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "619" }
+  }
+  </script>
+</head>
+<body>
+  <div class="site-bg"></div>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html#home" class="logo" aria-label="Aged | ايجد">
+        <svg viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h17v6a6 6 0 0 1-6 6h-5a6 6 0 0 1-6-6z"/><path d="M22 14h2.5a2.5 2.5 0 0 1 0 5H22"/><path d="M9 5v2M13.5 4v3M18 5v2"/></svg>
+        <span class="logo__en">Aged</span><span class="logo__bar"></span><span class="logo__ar">ايجد</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Main">
+        <a href="#home" data-i18n="nav_home">Home</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="menu.html" data-i18n="nav_menu">Menu</a>
+        <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+        <a href="#reviews" data-i18n="nav_reviews">Reviews</a>
+        <a href="#location" data-i18n="nav_location">Location</a>
+        <div class="nav__mobile-actions">
+          <a href="menu.html" class="btn btn--light" data-i18n="view_menu">View Menu</a>
+        </div>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="menu.html" class="btn btn--light btn--sm nav__cta" data-i18n="view_menu">View Menu Prices</a>
+        <button class="lang-btn" id="langBtn" aria-label="Switch language">EN / العربية</button>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__content">
+        <p class="hero__loc reveal-text"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg> <span data-i18n="hero_loc">Madinat Al Umal, Al Khobar</span></p>
+        <h1 class="hero__title reveal-text"><span class="hero__en">AGED</span><span class="hero__bar"></span><span class="hero__ar">ايجد</span></h1>
+        <p class="hero__tag reveal-text" data-i18n="hero_tag">Specialty coffee, thoughtfully crafted.</p>
+        <p class="hero__desc reveal-text" data-i18n="hero_desc">An aesthetic specialty coffee experience in the heart of Al Khobar.</p>
+        <div class="hero__btns reveal-text">
+          <a href="menu.html" class="btn btn--brown"><span data-i18n="view_menu">View Menu Prices</span> <span class="arrow">→</span></a>
+          <a href="#" class="btn btn--glass js-maps" target="_blank" rel="noopener" data-i18n="get_directions">Get Directions</a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__text reveal">
+          <p class="eyebrow" data-i18n="about_eyebrow">Our Story</p>
+          <h2 data-i18n="about_title">Made for Coffee People</h2>
+          <p data-i18n="about_text">Aged is a specialty coffee destination in Al Khobar focused on carefully prepared coffee, quality ingredients, and a relaxed atmosphere. From single-origin coffee to matcha and handcrafted desserts, every detail is designed to create a memorable café experience.</p>
+          <a href="menu.html" class="btn btn--brown" data-i18n="explore_menu">Explore the Menu</a>
+        </div>
+        <div class="collage reveal" id="collage"></div>
+      </div>
+    </section>
+
+    <!-- MENU PREVIEW -->
+    <section class="section section--dim" id="menu">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow" data-i18n="menu_eyebrow">Signature Menu</p>
+          <h2 data-i18n="menu_title">Crafted, Cup by Cup</h2>
+        </div>
+        <div class="tabs reveal" id="menuTabs" role="tablist"></div>
+        <div class="menu-grid" id="menuGrid"></div>
+        <div class="center reveal"><a href="menu.html" class="btn btn--brown" data-i18n="full_menu">View Full Menu & Prices</a></div>
+      </div>
+    </section>
+
+    <!-- FAVORITES -->
+    <section class="section" id="favorites">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow" data-i18n="fav_eyebrow">Most Loved</p>
+          <h2 data-i18n="fav_title">Customer Favorites</h2>
+        </div>
+        <div class="fav-grid" id="favGrid"></div>
+      </div>
+    </section>
+
+    <!-- BEAN TO CUP -->
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow eyebrow--light" data-i18n="proc_eyebrow">The Experience</p>
+          <h2 data-i18n="proc_title">From Bean to Cup</h2>
+        </div>
+        <div class="steps">
+          <article class="step reveal"><span class="step__num">01</span><h3 data-i18n="s1_t">Select</h3><p data-i18n="s1_d">Carefully selected specialty coffee beans.</p></article>
+          <article class="step reveal"><span class="step__num">02</span><h3 data-i18n="s2_t">Brew</h3><p data-i18n="s2_d">Prepared using precise brewing methods.</p></article>
+          <article class="step reveal"><span class="step__num">03</span><h3 data-i18n="s3_t">Enjoy</h3><p data-i18n="s3_d">Served fresh in a comfortable atmosphere.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow" data-i18n="gal_eyebrow">Gallery</p>
+          <h2 data-i18n="gal_title">Come for the Coffee. Stay for the Atmosphere.</h2>
+        </div>
+        <div class="masonry" id="masonry"></div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section section--dim" id="reviews">
+      <div class="container">
+        <div class="rating reveal">
+          <div class="rating__score">4.7<span> / 5</span></div>
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <p class="rating__count" data-i18n="rev_count">619+ Google Reviews</p>
+        </div>
+        <div class="reviews" id="reviewGrid"></div>
+        <div class="center reveal"><a href="#" class="btn btn--brown js-maps" target="_blank" rel="noopener" data-i18n="read_more">Read More Reviews</a></div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="section" id="location">
+      <div class="container loc">
+        <div class="loc__info reveal">
+          <p class="eyebrow" data-i18n="loc_eyebrow">Visit Us</p>
+          <h2 data-i18n="loc_title">Find Us in Al Khobar</h2>
+          <address id="address" data-i18n="address">22nd St, Madinat Al Umal, Al Khobar 34441, Saudi Arabia</address>
+          <a href="#" class="btn btn--brown js-maps" target="_blank" rel="noopener" data-i18n="get_directions">Get Directions</a>
+
+          <div class="hours">
+            <h3 data-i18n="hours_title">Open Daily</h3>
+            <p class="hours__open"><span class="dot"></span><span data-i18n="hours_until">Open until 2:00 AM</span></p>
+            <p class="hours__note" data-i18n="hours_note">Opening hours may vary. Please check Google Maps for the latest hours.</p>
+          </div>
+        </div>
+        <div class="loc__map reveal">
+          <iframe id="mapFrame" title="Aged | ايجد map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER CTA -->
+    <section class="order" id="order">
+      <div class="container reveal">
+        <h2 data-i18n="order_title">Your Coffee Is Waiting</h2>
+        <p data-i18n="order_text">Order ahead and pick it up fresh, or have it delivered to your door.</p>
+        <div class="order__btns">
+          <a href="#" class="btn btn--light" id="orderPickup" target="_blank" rel="noopener" data-i18n="order_pickup">Order Pickup</a>
+          <a href="#" class="btn btn--outline" id="orderDelivery" target="_blank" rel="noopener" data-i18n="order_delivery">Order Delivery</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__logo">Aged | ايجد</div>
+        <p data-i18n="foot_tag">Specialty coffee in Al Khobar.</p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_nav">Navigate</h4>
+        <a href="#home" data-i18n="nav_home">Home</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="menu.html" data-i18n="nav_menu">Menu</a>
+        <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+        <a href="#reviews" data-i18n="nav_reviews">Reviews</a>
+        <a href="#location" data-i18n="nav_location">Location</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_social">Social</h4>
+        <a href="" id="instagramLink" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" class="js-maps" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_contact">Contact</h4>
+        <p data-i18n="address">22nd St, Madinat Al Umal, Al Khobar 34441, Saudi Arabia</p>
+        <p data-i18n="hours_until">Open until 2:00 AM</p>
+      </div>
+    </div>
+    <div class="footer__bottom">© 2026 Aged | ايجد. <span data-i18n="rights">All rights reserved.</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

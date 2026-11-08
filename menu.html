@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu & Prices | Aged | ايجد</title>
+  <meta name="description" content="Drinks menu and prices at Aged | ايجد specialty coffee in Al Khobar.">
+  <meta name="theme-color" content="#1a1109">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@300;400;500;600&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-bg"></div>
+
+  <!-- NAVIGATION -->
+  <header class="nav scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html#home" class="logo" aria-label="Aged | ايجد">
+        <svg viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h17v6a6 6 0 0 1-6 6h-5a6 6 0 0 1-6-6z"/><path d="M22 14h2.5a2.5 2.5 0 0 1 0 5H22"/><path d="M9 5v2M13.5 4v3M18 5v2"/></svg>
+        <span class="logo__en">Aged</span><span class="logo__bar"></span><span class="logo__ar">ايجد</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Main">
+        <a href="index.html#home" data-i18n="nav_home">Home</a>
+        <a href="index.html#about" data-i18n="nav_about">About</a>
+        <a href="menu.html" class="active" data-i18n="nav_menu">Menu</a>
+        <a href="index.html#gallery" data-i18n="nav_gallery">Gallery</a>
+        <a href="index.html#reviews" data-i18n="nav_reviews">Reviews</a>
+        <a href="index.html#location" data-i18n="nav_location">Location</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="lang-btn" id="langBtn" aria-label="Switch language">EN / العربية</button>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow eyebrow--light" data-i18n="menu_page_eyebrow">Aged | ايجد</p>
+        <h1 class="page-title" data-i18n="menu_page_title">Menu</h1>
+        <p class="page-sub" data-i18n="menu_page_sub">Prices are in Saudi Riyals (SAR).</p>
+      </div>
+    </section>
+
+    <section class="menu-page">
+      <div class="container">
+        <div class="menu-panel">
+          <h2 class="menu-panel__title" data-i18n="drinks">Drinks</h2>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th class="name-col" data-i18n="item">Item</th>
+                <th data-i18n="hot">Hot</th>
+                <th data-i18n="cold">Cold</th>
+              </tr>
+            </thead>
+            <tbody id="priceBody"></tbody>
+          </table>
+        </div>
+        <div class="center"><a href="index.html#home" class="btn btn--glass" data-i18n="back_home">Back to Home</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__logo">Aged | ايجد</div>
+        <p data-i18n="foot_tag">Specialty coffee in Al Khobar.</p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_nav">Navigate</h4>
+        <a href="index.html#home" data-i18n="nav_home">Home</a>
+        <a href="index.html#about" data-i18n="nav_about">About</a>
+        <a href="menu.html" data-i18n="nav_menu">Menu</a>
+        <a href="index.html#gallery" data-i18n="nav_gallery">Gallery</a>
+        <a href="index.html#reviews" data-i18n="nav_reviews">Reviews</a>
+        <a href="index.html#location" data-i18n="nav_location">Location</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_social">Social</h4>
+        <a href="" id="instagramLink" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" class="js-maps" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_contact">Contact</h4>
+        <p data-i18n="address">22nd St, Madinat Al Umal, Al Khobar 34441, Saudi Arabia</p>
+        <p data-i18n="hours_until">Open until 2:00 AM</p>
+      </div>
+    </div>
+    <div class="footer__bottom">© 2026 Aged | ايجد. <span data-i18n="rights">All rights reserved.</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
